@@ -1,0 +1,160 @@
+    @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    header,
+    section {
+        overflow-x: hidden;
+    }
+    
+    header {
+        background: linear-gradient(to bottom, #dd2476, #ff512f);
+        color: #fff;
+        font-family: "Sniglet", cursive;
+        width: 100%;
+    }
+    
+    .book-image {
+        width: 352px;
+        height: 443px;
+    }
+    
+    .book-image img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .px-5 {
+        padding-right: 8rem !important;
+        padding-left: 8rem !important;
+    }
+    
+    .section1::after {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        width: 360px;
+        height: 540px;
+    }
+    
+    .section1 .row .col-md-6 .david img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .section1 .row .col-md-6 .panel {
+        position: absolute;
+        z-index: 999;
+        top: 603px;
+        left: 327px;
+        padding: 28px;
+        background-color: beige;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 514px;
+        width: 60%;
+    }
+    
+    .cover {
+        width: 100%;
+        height: 32vmin;
+        background: url(../images/pexels-photo-452738.jpeg);
+        background-position: -24rem -19rem;
+        background-size: 150%;
+        position: relative;
+    }
+    
+    .boxes {
+        position: relative;
+        top: 30;
+        margin-top: -40px;
+    }
+    
+    .box-model .box {
+        width: 290px;
+        height: 200px;
+        padding-top: 30px;
+        margin: 17px;
+        border-radius: 5px;
+        box-shadow: rgb(255 0 0 / 35%) 1px 2px 50px 0px;
+        background: white;
+        text-align: center;
+    }
+    
+    .purchase h1 {
+        padding-top: 30px;
+        padding-bottom: 0.1em;
+        font-family: "lobster", cursive;
+    }
+    
+    .purchase p {
+        color: black;
+        font-size: 20px;
+        /* padding-bottom: 300px; */
+    }
+    
+    .card {
+        height: 480px;
+        margin: 20px;
+    }
+    
+    .card-text {
+        font-size: 13px !important;
+        padding: 25px 30px;
+    }
+    /*     
+    .cover .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    } */
+    
+    .cover .content {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    
+    .content h1 {
+        color: #fff;
+    }
+    
+    .content p {
+        color: #fff;
+    }
+    
+    .section-3 {
+        height: 70vmin;
+        margin-top: 15vmin;
+        margin-bottom: 23px;
+        background: linear-gradient(to bottom, #dd2476, #ff512f);
+    }
+    
+    .section-3 .pt-5 p {
+        color: aliceblue;
+    }
+    
+    .section-3 .pt-5 {
+        font-size: 15px;
+    }
+    
+    .desk {
+        background: white;
+        border-radius: 35px;
+        padding: 16px;
+        margin: 11px;
+        display: inline-block;
+    }
